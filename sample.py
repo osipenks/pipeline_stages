@@ -1,6 +1,8 @@
 # This is a sample script.
 from nlp import nlp
-from pipeline_stages import CleanText, LowerText, CleanDigits, TokenizeSplit, StopWords, OneChar, OmittedPrepositions, Decontract, SkipPastTenses, JoinTokens, GeneralizeEnts, CleanPunctLight, GeneralizeDayOfWeek
+from pipeline_stages import CleanText, LowerText, CleanDigits, TokenizeSplit, StopWords, OneChar, \
+    OmittedPrepositions, Decontract, SkipPastTenses, JoinTokens, GeneralizeEnts, CleanPunctLight, \
+    GeneralizeDayOfWeek
 from pipeline import Pipeline
 
 
