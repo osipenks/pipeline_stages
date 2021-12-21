@@ -1,2 +1,2 @@
 # Pipeline stages
-Simple abstractions to build robust pipelines for texts processing 
+Simple abstractions to build robust texts processing pipelines
