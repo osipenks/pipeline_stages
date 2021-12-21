@@ -6,7 +6,7 @@ from pipeline import Pipeline
 
 class SomePipeline(Pipeline):
     """
-    Preprocess text before making prediction based on rules
+    Preprocess text
     """
     def __init__(self, storage_path=None):
         super().__init__()
